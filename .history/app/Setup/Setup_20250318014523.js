@@ -46,8 +46,6 @@ class Setup extends P5Config {
         this.p5.windowHeight - this.pipeImg.height
       );
     }
-
-    this.p5.image(this.flappyImg, 0, 20);
   }
 
   rePositionPipe(i) {

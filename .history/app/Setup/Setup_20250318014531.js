@@ -47,7 +47,7 @@ class Setup extends P5Config {
       );
     }
 
-    this.p5.image(this.flappyImg, 0, 20);
+    console.log(this.flappyImg)
   }
 
   rePositionPipe(i) {

@@ -10,7 +10,6 @@ class Setup extends P5Config {
   pipesLength = 200;
   speed = 1;
   flappy = null;
-  flappyImg = null;
 
   constructor() {
     super();
@@ -46,8 +45,6 @@ class Setup extends P5Config {
         this.p5.windowHeight - this.pipeImg.height
       );
     }
-
-    this.p5.image(this.flappyImg, 0, 20);
   }
 
   rePositionPipe(i) {
@@ -65,7 +62,7 @@ class Setup extends P5Config {
   preload() {
     this.bgImg = this.p5.loadImage(bgDayImage);
     this.pipeImg = this.p5.loadImage(pipeImage);
-    this.flappyImg = this.flappy.init();
+    this.flappy;
   }
 }
 

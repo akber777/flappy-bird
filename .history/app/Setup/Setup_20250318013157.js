@@ -3,19 +3,18 @@ import bgDayImage from "../assets/sprites//background-night.png";
 import pipeImage from "../assets/sprites/pipe-green.png";
 import Flappy from "../flappy/flappy";
 
+const flappy = new Flappy();
+
 class Setup extends P5Config {
   bgImg = null;
   pipeImg = null;
   pipes = [];
   pipesLength = 200;
   speed = 1;
-  flappy = null;
-  flappyImg = null;
 
   constructor() {
     super();
     this.p5 = this.getInstance();
-    this.flappy = new Flappy();
   }
   setup() {
     this.p5.createCanvas(this.p5.windowWidth, this.p5.windowHeight, 600);
@@ -40,14 +39,13 @@ class Setup extends P5Config {
 
     for (let i = 0; i < this.pipes.length; i++) {
       let pipeX = this.rePositionPipe(i) - this.p5.frameCount * this.speed;
+
       this.p5.image(
         this.pipeImg,
         pipeX,
         this.p5.windowHeight - this.pipeImg.height
       );
     }
-
-    this.p5.image(this.flappyImg, 0, 20);
   }
 
   rePositionPipe(i) {
@@ -65,7 +63,6 @@ class Setup extends P5Config {
   preload() {
     this.bgImg = this.p5.loadImage(bgDayImage);
     this.pipeImg = this.p5.loadImage(pipeImage);
-    this.flappyImg = this.flappy.init();
   }
 }
 
