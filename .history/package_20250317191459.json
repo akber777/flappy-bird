@@ -1,0 +1,14 @@
+{
+  "name": "my-project",
+  "source": "app/index.html",
+  "scripts": {
+    "dev": "parcel --watch",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  },
+  "dependencies": {
+    "p5": "^1.11.3"
+  }
+}
