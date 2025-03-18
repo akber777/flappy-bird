@@ -11,11 +11,6 @@ A simple Flappy Bird game clone where you control a bird and try to navigate thr
 - Press SPACE or click to make the bird fly
 - Avoid hitting the pipes
 
-### Features
-
-- Simple and addictive gameplay
-- Responsive controls
-
 ### Technologies Used
 
 - P5.js for game rendering
