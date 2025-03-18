@@ -9,7 +9,6 @@
     "parcel": "^2.13.3"
   },
   "dependencies": {
-    "matter-js": "^0.20.0",
     "p5": "^1.11.3"
   }
 }
