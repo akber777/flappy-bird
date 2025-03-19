@@ -10,5 +10,4 @@ A simple Flappy Bird game clone where you control a bird and try to navigate thr
 
 - P5.js for game rendering
 - Matter.js for physics
-- JavaScript for game logic
 - Parcel for bundling
