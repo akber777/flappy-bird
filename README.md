@@ -1,4 +1,4 @@
-# Flappy Bird Game 🐦
+# Flappy Bird 🐦
 
 \---/
 (o.o)
