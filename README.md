@@ -4,7 +4,7 @@
 (o.o)
 (> <)
 
-A simple Flappy Bird game clone where you control a bird and try to navigate through pipes. The goal is to fly as far as possible without hitting the pipes or the ground.
+A simple Flappy Bird game
 
 ### Technologies Used
 
